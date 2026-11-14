@@ -1,0 +1,12 @@
+{
+  "verified": true,
+  "original_leads": 20,
+  "endpoints": 7,
+  "prediction_differences": 140,
+  "max_mean_MIC_uM_recalculation_error": 4.440892098500626e-16,
+  "max_worst_MIC_uM_recalculation_error": 0,
+  "max_pairwise_3mer_jaccard": 0.4473684210526316,
+  "leads_beyond_AD_p95": 0,
+  "original_source_files_sha256_matched": 7,
+  "note": "Stress metrics are not prospective probabilities."
+}

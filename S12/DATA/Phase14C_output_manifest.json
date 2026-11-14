@@ -1,0 +1,81 @@
+{
+  "version": "Phase14C analysis only",
+  "files": {
+    "PACE_Phase14C_Original_Leads_AD_Uncertainty_and_GA_Reproducibility_Report.md": {
+      "sha256": "67032fd9d03c5ec2431e21f54e5ee10eae4432aadb76b3baaea8c92a7bc0efa8",
+      "bytes": 10585
+    },
+    "Phase14C_Figure_AD_heatmap.png": {
+      "sha256": "a40593c804910ec10cd6a36d662a4ce1f9982fab464503df9779aa709799eb83",
+      "bytes": 319474
+    },
+    "Phase14C_Figure_original_vs_refit.png": {
+      "sha256": "5e6500639ebd81e3bad846801dbe8e707d1e0ee12eb72e78350d2a174329b90c",
+      "bytes": 206958
+    },
+    "Phase14C_all7_aligned_out_of_fold_residuals.csv": {
+      "sha256": "4b54628b55d7ea8c4d74f10fcc954f2aef82d7b803fbe3f49a1d18459cdfdc2b",
+      "bytes": 1884209
+    },
+    "Phase14C_all7_endpoint_applicability_domain.csv": {
+      "sha256": "4097df64fd274109f06fa3fe9de6a082910b3214758f04c433b705cb494ea297",
+      "bytes": 18858
+    },
+    "Phase14C_heldout_residual_quantiles.csv": {
+      "sha256": "da5b4824c8b221f9d5588939872815e8ef912fb65aa0e0cd98ccbb746b3ee8fd",
+      "bytes": 2875
+    },
+    "Phase14C_independent_verification.json": {
+      "sha256": "d3d2b0b2fa3cb482262b00fdc0a46e8f6b03ef20eb4ad4ce2e37b43f1721697c",
+      "bytes": 393
+    },
+    "Phase14C_integrity_and_summary.json": {
+      "sha256": "e46017d8dea053916d89b80c91a0d746a9275a08d0b2c14140d1bdb415fe841e",
+      "bytes": 3298
+    },
+    "Phase14C_original_leads_rank_and_filter_stress.csv": {
+      "sha256": "c303aa15a90b0ea88d66eb3ec6df83c9b6605cb3550cf98fb2d31bbb4dbe41dd",
+      "bytes": 3948
+    },
+    "Phase14C_original_leads_uncertainty_envelope.csv": {
+      "sha256": "b04698a7e6c48eedfd237324bc2fa3b37e6ef114f64467b1bf36e3465dd9c89b",
+      "bytes": 12545
+    },
+    "Phase14C_original_vs_reconstructed_model_predictions.csv": {
+      "sha256": "3d7a67421cd4d89ef883aeffbc909146cba5c25f03670ee05d9a9580dd995b8e",
+      "bytes": 11025
+    },
+    "Phase14C_reproducibility_run_log.txt": {
+      "sha256": "a5a42f97fe79977bc064fdf16dfc6feff13da0466ebdd8c55919f0de1a8c544d",
+      "bytes": 1056
+    },
+    "Phase14C_seven_original_input_sha256.csv": {
+      "sha256": "10839568ad96f72ba696e9ee45a4d55cce1f432efe92fc7d420673d01c066baa",
+      "bytes": 1200
+    },
+    "README_Phase14C_Package.md": {
+      "sha256": "984efbe23aa25a6e4a433e4df03f12134c2f75aceb5d2514b37b1cc550230dc4",
+      "bytes": 1720
+    },
+    "original_PACE_90D_features_readonly_copy.py": {
+      "sha256": "bbab620e5593d98e0bfc66c2e54129ca0e040a67321d08e7d679dc19bcd38200",
+      "bytes": 7055
+    },
+    "phase14c_export_aligned_residuals.py": {
+      "sha256": "6f958918b3891fb4caa0245edc99b2ef4699030b59023d519efa79fb97e9dc2d",
+      "bytes": 2510
+    },
+    "phase14c_independent_verifier.py": {
+      "sha256": "e24bd25224951d5f753cc8fe9b9513cbf085fd396408fc9970551c58e38bd6fa",
+      "bytes": 2550
+    },
+    "phase14c_make_figures.py": {
+      "sha256": "1e2699f5d31dec9eed7c24c5079eb84ddcbdc978c5bff0ca838e986928ac104b",
+      "bytes": 2456
+    },
+    "phase14c_reproduce_audit.py": {
+      "sha256": "a6c1a67850f6c05577273a65665817b732d0be7b4ba1d34146d3c66ea4b2c0a3",
+      "bytes": 15354
+    }
+  }
+}

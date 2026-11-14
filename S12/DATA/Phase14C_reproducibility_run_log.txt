@@ -1,0 +1,32 @@
+{
+  "n_leads": 20,
+  "max_pairwise_jaccard": 0.4473684210526316,
+  "median_pairwise_jaccard": 0.06846153846153846,
+  "original_fitness_sort_matches": true,
+  "phase9_refit_comparison": {
+    "rows": 200,
+    "full_arm_n": 40,
+    "full_arm_overlap_original20": 0,
+    "all_arms_overlap_original20": 0
+  },
+  "median_hemolysis_domain_percentile": 59.40204563335956,
+  "hemolysis_leads_above_p95": 0,
+  "all7_AD_above_p95": 0,
+  "group_uncertainty_stress_worst_MIC_all20_below32": 0,
+  "group_uncertainty_stress_SI_all20_above10": 0,
+  "ranking_stress_summary": {
+    "independent_peptide_endpoint": {
+      "mean_top5_overlap": 1.4495,
+      "fraction_all_20_pass": 0.0006666666666666666,
+      "mean_pass_count": 13.725666666666667,
+      "reference_top1_stress_win_freq": 0.08575
+    },
+    "shared_endpoint_systematic": {
+      "mean_top5_overlap": 4.025166666666666,
+      "fraction_all_20_pass": 0.5991666666666666,
+      "mean_pass_count": 13.709833333333334,
+      "reference_top1_stress_win_freq": 1.0
+    }
+  },
+  "source_hashes_unchanged": true
+}
