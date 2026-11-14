@@ -1,0 +1,7 @@
+target,full_peptides,no_amid_peptides,no_is_modified_peptides,no_is_modified_and_source_known_peptides,no_modified_retention_pct
+E. faecium,780,485,477,476,61.15384615384615
+S. aureus,4128,2858,2831,2436,68.58042635658914
+K. pneumoniae,743,448,444,443,59.757738896366085
+A. baumannii,306,164,163,162,53.26797385620915
+P. aeruginosa,2517,1592,1579,1302,62.733412793007545
+E. cloacae,304,205,201,201,66.11842105263158
