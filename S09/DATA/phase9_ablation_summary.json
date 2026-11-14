@@ -1,0 +1,250 @@
+{
+  "runtime_seconds": 529.1337690353394,
+  "model_type": "Original PACE classifier family GB/ET/SVM/RF and 300-tree MIC+hemolysis ExtraTrees; refitted with original data + original descriptor engine",
+  "arms": [
+    "full",
+    "no_hemolysis",
+    "no_novelty",
+    "no_worst_case",
+    "potency_recognition_only"
+  ],
+  "seeds": [
+    7,
+    29
+  ],
+  "runs": [
+    {
+      "arm": "full",
+      "seed": 7,
+      "unique_scored": 9309,
+      "feasible_hard_filters": 5061,
+      "n_diverse_leads": 20,
+      "best_native_fitness": 2.5489518836425846,
+      "fraction_known_sim_above_0_55": 0.0,
+      "fraction_length_29_30_all": 0.5768611021592007,
+      "lead_avg_length": 29.45,
+      "lead_avg_mic_log10": 0.40123843122259056,
+      "lead_avg_worst_mic_log10": 0.5513274986850429,
+      "lead_avg_ti_log10": 1.8993044141809097,
+      "lead_avg_p_amp": 0.9679496635758333,
+      "lead_avg_known_sim": 0.10039690151775008,
+      "lead_avg_full_fitness": 2.398579795095101,
+      "filter_reject_reasons": {
+        "p_amp": 4151,
+        "selectivity": 68,
+        "mic": 29
+      }
+    },
+    {
+      "arm": "no_hemolysis",
+      "seed": 7,
+      "unique_scored": 9311,
+      "feasible_hard_filters": 5759,
+      "n_diverse_leads": 20,
+      "best_native_fitness": 1.4732372900979576,
+      "fraction_known_sim_above_0_55": 0.0,
+      "fraction_length_29_30_all": 0.5492428310600365,
+      "lead_avg_length": 29.4,
+      "lead_avg_mic_log10": 0.29882258324538896,
+      "lead_avg_worst_mic_log10": 0.5178921090734432,
+      "lead_avg_ti_log10": 1.7600263283694435,
+      "lead_avg_p_amp": 0.9828106606317222,
+      "lead_avg_known_sim": 0.10699323800397967,
+      "lead_avg_full_fitness": 2.463868480503,
+      "filter_reject_reasons": {
+        "p_amp": 3433,
+        "selectivity": 89,
+        "mic": 30
+      }
+    },
+    {
+      "arm": "no_novelty",
+      "seed": 7,
+      "unique_scored": 9309,
+      "feasible_hard_filters": 5061,
+      "n_diverse_leads": 20,
+      "best_native_fitness": 2.5489518836425846,
+      "fraction_known_sim_above_0_55": 0.0,
+      "fraction_length_29_30_all": 0.5768611021592007,
+      "lead_avg_length": 29.45,
+      "lead_avg_mic_log10": 0.40123843122259056,
+      "lead_avg_worst_mic_log10": 0.5513274986850429,
+      "lead_avg_ti_log10": 1.8993044141809097,
+      "lead_avg_p_amp": 0.9679496635758333,
+      "lead_avg_known_sim": 0.10039690151775008,
+      "lead_avg_full_fitness": 2.398579795095101,
+      "filter_reject_reasons": {
+        "p_amp": 4151,
+        "selectivity": 68,
+        "mic": 29
+      }
+    },
+    {
+      "arm": "no_worst_case",
+      "seed": 7,
+      "unique_scored": 9325,
+      "feasible_hard_filters": 4552,
+      "n_diverse_leads": 20,
+      "best_native_fitness": 2.893431594182804,
+      "fraction_known_sim_above_0_55": 0.0,
+      "fraction_length_29_30_all": 0.5742627345844504,
+      "lead_avg_length": 29.3,
+      "lead_avg_mic_log10": 0.31430572860749806,
+      "lead_avg_worst_mic_log10": 0.5850530761980739,
+      "lead_avg_ti_log10": 1.9063075136471688,
+      "lead_avg_p_amp": 0.9678635345087738,
+      "lead_avg_known_sim": 0.09809543410562342,
+      "lead_avg_full_fitness": 2.4726793104993137,
+      "filter_reject_reasons": {
+        "p_amp": 4757,
+        "selectivity": 12,
+        "mic": 4
+      }
+    },
+    {
+      "arm": "potency_recognition_only",
+      "seed": 7,
+      "unique_scored": 9314,
+      "feasible_hard_filters": 5482,
+      "n_diverse_leads": 20,
+      "best_native_fitness": 1.7863749590198597,
+      "fraction_known_sim_above_0_55": 0.0,
+      "fraction_length_29_30_all": 0.5529310715052609,
+      "lead_avg_length": 29.1,
+      "lead_avg_mic_log10": 0.2881895877493155,
+      "lead_avg_worst_mic_log10": 0.5023928379422462,
+      "lead_avg_ti_log10": 1.7397352754981834,
+      "lead_avg_p_amp": 0.9774535828746777,
+      "lead_avg_known_sim": 0.11437690216533285,
+      "lead_avg_full_fitness": 2.459160898416159,
+      "filter_reject_reasons": {
+        "p_amp": 3724,
+        "selectivity": 85,
+        "mic": 23
+      }
+    },
+    {
+      "arm": "full",
+      "seed": 29,
+      "unique_scored": 9321,
+      "feasible_hard_filters": 4653,
+      "n_diverse_leads": 20,
+      "best_native_fitness": 2.552200160931166,
+      "fraction_known_sim_above_0_55": 0.0,
+      "fraction_length_29_30_all": 0.5556270786396309,
+      "lead_avg_length": 29.2,
+      "lead_avg_mic_log10": 0.36147790824347104,
+      "lead_avg_worst_mic_log10": 0.6044992221333325,
+      "lead_avg_ti_log10": 1.8521470523139452,
+      "lead_avg_p_amp": 0.9674505368758929,
+      "lead_avg_known_sim": 0.10876259702144117,
+      "lead_avg_full_fitness": 2.3824617858300154,
+      "filter_reject_reasons": {
+        "p_amp": 4596,
+        "selectivity": 55,
+        "mic": 17
+      }
+    },
+    {
+      "arm": "no_hemolysis",
+      "seed": 29,
+      "unique_scored": 9327,
+      "feasible_hard_filters": 5719,
+      "n_diverse_leads": 20,
+      "best_native_fitness": 1.4834895998785005,
+      "fraction_known_sim_above_0_55": 0.0,
+      "fraction_length_29_30_all": 0.6019084378685536,
+      "lead_avg_length": 29.5,
+      "lead_avg_mic_log10": 0.29638522585644833,
+      "lead_avg_worst_mic_log10": 0.5307566581885426,
+      "lead_avg_ti_log10": 1.7121127523039672,
+      "lead_avg_p_amp": 0.9757673618079524,
+      "lead_avg_known_sim": 0.11135115445613002,
+      "lead_avg_full_fitness": 2.416597514938432,
+      "filter_reject_reasons": {
+        "p_amp": 3520,
+        "selectivity": 58,
+        "mic": 30
+      }
+    },
+    {
+      "arm": "no_novelty",
+      "seed": 29,
+      "unique_scored": 9321,
+      "feasible_hard_filters": 4653,
+      "n_diverse_leads": 20,
+      "best_native_fitness": 2.552200160931166,
+      "fraction_known_sim_above_0_55": 0.0,
+      "fraction_length_29_30_all": 0.5556270786396309,
+      "lead_avg_length": 29.2,
+      "lead_avg_mic_log10": 0.36147790824347104,
+      "lead_avg_worst_mic_log10": 0.6044992221333325,
+      "lead_avg_ti_log10": 1.8521470523139452,
+      "lead_avg_p_amp": 0.9674505368758929,
+      "lead_avg_known_sim": 0.10876259702144117,
+      "lead_avg_full_fitness": 2.3824617858300154,
+      "filter_reject_reasons": {
+        "p_amp": 4596,
+        "selectivity": 55,
+        "mic": 17
+      }
+    },
+    {
+      "arm": "no_worst_case",
+      "seed": 29,
+      "unique_scored": 9337,
+      "feasible_hard_filters": 4151,
+      "n_diverse_leads": 20,
+      "best_native_fitness": 2.958002457679146,
+      "fraction_known_sim_above_0_55": 0.0,
+      "fraction_length_29_30_all": 0.5729891828210346,
+      "lead_avg_length": 28.85,
+      "lead_avg_mic_log10": 0.2635563333997602,
+      "lead_avg_worst_mic_log10": 0.5753231623576356,
+      "lead_avg_ti_log10": 1.8447033418549061,
+      "lead_avg_p_amp": 0.9645858660491953,
+      "lead_avg_known_sim": 0.10736621524324666,
+      "lead_avg_full_fitness": 2.484775822632756,
+      "filter_reject_reasons": {
+        "p_amp": 5156,
+        "mic": 18,
+        "selectivity": 12
+      }
+    },
+    {
+      "arm": "potency_recognition_only",
+      "seed": 29,
+      "unique_scored": 9347,
+      "feasible_hard_filters": 5493,
+      "n_diverse_leads": 20,
+      "best_native_fitness": 1.6887494385336075,
+      "fraction_known_sim_above_0_55": 0.0,
+      "fraction_length_29_30_all": 0.5752647908419813,
+      "lead_avg_length": 29.25,
+      "lead_avg_mic_log10": 0.3396863651880373,
+      "lead_avg_worst_mic_log10": 0.5362682467669423,
+      "lead_avg_ti_log10": 1.643214493598379,
+      "lead_avg_p_amp": 0.9785999674967915,
+      "lead_avg_known_sim": 0.1098821047441743,
+      "lead_avg_full_fitness": 2.3353081425811024,
+      "filter_reject_reasons": {
+        "p_amp": 3726,
+        "selectivity": 90,
+        "mic": 38
+      }
+    }
+  ],
+  "novelty_trajectories": {
+    "7": {
+      "full_union_n": 9309,
+      "no_novelty_union_n": 9309,
+      "symmetric_difference": 0
+    },
+    "29": {
+      "full_union_n": 9321,
+      "no_novelty_union_n": 9321,
+      "symmetric_difference": 0
+    }
+  },
+  "total_unique_predictions_across_runs": 73097
+}

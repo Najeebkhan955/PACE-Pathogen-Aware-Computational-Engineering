@@ -1,0 +1,21 @@
+{
+  "source": "Official refit of PACE 90D models from Phase8 curated labels and pinned FASTA sources, reconstructed from original published code",
+  "quantitative_labels_source": "Phase8 quantitative_predictions 90D_PACE observed_log10 (uniquely deduplicated by sequence and endpoint)",
+  "classifier_training_n": 7839,
+  "classifier_names": [
+    "GB",
+    "ET",
+    "SVM",
+    "RF"
+  ],
+  "classifier_trees": 400,
+  "regressor_trees": 300,
+  "novelty_known_peptides": 7898,
+  "ga_seeds": [
+    7,
+    29
+  ],
+  "original_pace_source": "PACE_reproducibility_code.zip",
+  "limits": "Newly fitted models may not bitwise reproduce prior author weights; same descriptor code and model settings",
+  "phase8_sha256": "9daf9f932a07ec46121e9e65508c11d68874ceae5d771ec8dd7a3961342edeea"
+}
