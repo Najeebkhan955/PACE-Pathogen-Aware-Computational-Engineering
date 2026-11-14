@@ -1,0 +1,67 @@
+{
+  "model": "facebook/esm2_t6_8M_UR50D",
+  "model_revision": "c731040fcd8d73dceaa04b0a8e6329b345b0f5df",
+  "seed": 2024,
+  "device": "cuda",
+  "source_files": {
+    "AMP_train": {
+      "url": "https://raw.githubusercontent.com/BirolLab/AMPlify/master/data/AMPlify_AMP_train_common.fa",
+      "sha256": "a04e28f8d29d1bb4f445a6162e210e0999289c31bf93f2f13c8d2268c8dd9cdc",
+      "bytes": 141696
+    },
+    "AMP_test": {
+      "url": "https://raw.githubusercontent.com/BirolLab/AMPlify/master/data/AMPlify_AMP_test_common.fa",
+      "sha256": "5c6b6dc7f664035e6485454d3e1c119cc2cdc4e01655837eca47faa9b587782c",
+      "bytes": 32687
+    },
+    "nonAMP_train": {
+      "url": "https://raw.githubusercontent.com/BirolLab/AMPlify/master/data/AMPlify_non_AMP_train_balanced.fa",
+      "sha256": "02161c5d18ff8c5c8c712527fb84a9c51606a46b11ad987cd91c60306acd25a3",
+      "bytes": 154709
+    },
+    "nonAMP_test": {
+      "url": "https://raw.githubusercontent.com/BirolLab/AMPlify/master/data/AMPlify_non_AMP_test_balanced.fa",
+      "sha256": "370edd07c0da533273c2da6a725c0b6579ac4c7aa09569e1b4ae40c6e80587b4",
+      "bytes": 40176
+    },
+    "external_AMP": {
+      "url": "https://raw.githubusercontent.com/tlawrence3/amPEPpy/master/training_data/M_model_train_AMP_sequence.numbered.fasta",
+      "sha256": "f2a1c098418ef479c603dbd30c3bc34db9d0621b8315d224ba612fc255a3c98d",
+      "bytes": 182506
+    },
+    "external_nonAMP": {
+      "url": "https://raw.githubusercontent.com/tlawrence3/amPEPpy/master/training_data/M_model_train_nonAMP_sequence.numbered.proplen.subsample.fasta",
+      "sha256": "fed227ff2d8782893a4286fe4be3712712449ccd604171971e3ba31e569da1bf",
+      "bytes": 205549
+    },
+    "GRAMPA": {
+      "url": "https://raw.githubusercontent.com/zswitten/Antimicrobial-Peptides/master/data/grampa.csv",
+      "sha256": "9e33122afb3bdd169e8bed620b1040bf1601d60cf25b6c8c8d9870bf37522b6f",
+      "bytes": 7830941
+    },
+    "Hemolysis": {
+      "url": "https://raw.githubusercontent.com/zswitten/Antimicrobial-Peptides/master/Hemolysis/Cleaned_hemolytic_data.csv",
+      "sha256": "adee9ec2d1cacbfb26db35984ac1e2914d25927d425a76af016258745fd5cf1c",
+      "bytes": 57889
+    }
+  },
+  "n_train": 6271,
+  "n_heldout": 1568,
+  "n_external": 1848,
+  "n_unique_sequences": 12979,
+  "quantitative_sample_sizes": {
+    "E. faecium": 780,
+    "S. aureus": 4128,
+    "K. pneumoniae": 743,
+    "A. baumannii": 306,
+    "P. aeruginosa": 2517,
+    "E. cloacae": 304,
+    "HC50": 1271
+  },
+  "input_feature_sha256": "bbab620e5593d98e0bfc66c2e54129ca0e040a67321d08e7d679dc19bcd38200",
+  "environment": {
+    "python": "3.13.16",
+    "torch": "2.14.1+cu130",
+    "sklearn": "1.6.1"
+  }
+}
