@@ -1,0 +1,211 @@
+{
+  "phase": "11E5",
+  "status": "reconstructed_candidates_available_pending_independent_validation",
+  "seed": 20261114,
+  "target_positive": 1000,
+  "batch_size": 128,
+  "execution_mode": "original_architecture_reconstructed_from_original_verified_weights",
+  "no_original_PACE_files_modified": true,
+  "generated_count": 2024,
+  "positive_canonical_count": 1000,
+  "positive_unique_canonical_count": 1000,
+  "stages": {
+    "source_reference_checkpoint": "verified_via_original_phase11e4_sha256_checks",
+    "original_preprocessing": "verified",
+    "reconstructed_generation": "passed"
+  },
+  "checks": {
+    "generator_source_sha256": "a7d8bb02e2c60af4a87e48d4531c86047d754deff920639569444614cd3fb1ed",
+    "original_generator_defaults": {
+      "output_shape": [
+        32,
+        23
+      ],
+      "latent_shape": [
+        256
+      ],
+      "condition_shape": [
+        64
+      ],
+      "blocks": 6,
+      "filters": 128,
+      "activation": "tanh"
+    },
+    "variable_binding": "native_generator_variables_in_exact_keras_layer_order",
+    "all_16_weight_tensor_shapes_match_original_architecture": true,
+    "non_wildcard_original_alphabet": "ACDEFGHIKLMNOPQRSTUVWY",
+    "positive_lengths": {
+      "5": 4,
+      "26": 84,
+      "15": 83,
+      "8": 27,
+      "21": 45,
+      "25": 40,
+      "22": 18,
+      "19": 66,
+      "18": 41,
+      "13": 64,
+      "12": 68,
+      "11": 72,
+      "28": 15,
+      "20": 59,
+      "16": 40,
+      "17": 32,
+      "24": 32,
+      "23": 31,
+      "9": 25,
+      "30": 20,
+      "27": 16,
+      "29": 9,
+      "7": 14,
+      "6": 13,
+      "10": 34,
+      "14": 30,
+      "31": 8,
+      "2": 3,
+      "4": 3,
+      "1": 1,
+      "32": 2,
+      "3": 1
+    }
+  },
+  "references": {
+    "AMPGANv2": "https://gitlab.com/vail-uvm/amp-gan.git; v2.0; 2102eb5d26dd9a3c12a5a0bad7c7bb3c58b80c70",
+    "coordinate_channel_1d": "https://github.com/titu1994/keras-coordconv/blob/master/coord.py"
+  },
+  "runtime": {
+    "tensorflow": "2.21.0",
+    "python": "3.13.18"
+  },
+  "variables": [
+    {
+      "index": 0,
+      "name": "dense_4/kernel:0",
+      "shape": [
+        320,
+        736
+      ]
+    },
+    {
+      "index": 1,
+      "name": "dense_4/bias:0",
+      "shape": [
+        736
+      ]
+    },
+    {
+      "index": 2,
+      "name": "conv1d_6/kernel:0",
+      "shape": [
+        3,
+        24,
+        128
+      ]
+    },
+    {
+      "index": 3,
+      "name": "conv1d_6/bias:0",
+      "shape": [
+        128
+      ]
+    },
+    {
+      "index": 4,
+      "name": "conv1d_7/kernel:0",
+      "shape": [
+        3,
+        128,
+        128
+      ]
+    },
+    {
+      "index": 5,
+      "name": "conv1d_7/bias:0",
+      "shape": [
+        128
+      ]
+    },
+    {
+      "index": 6,
+      "name": "conv1d_8/kernel:0",
+      "shape": [
+        3,
+        128,
+        128
+      ]
+    },
+    {
+      "index": 7,
+      "name": "conv1d_8/bias:0",
+      "shape": [
+        128
+      ]
+    },
+    {
+      "index": 8,
+      "name": "conv1d_9/kernel:0",
+      "shape": [
+        3,
+        128,
+        128
+      ]
+    },
+    {
+      "index": 9,
+      "name": "conv1d_9/bias:0",
+      "shape": [
+        128
+      ]
+    },
+    {
+      "index": 10,
+      "name": "conv1d_10/kernel:0",
+      "shape": [
+        3,
+        128,
+        128
+      ]
+    },
+    {
+      "index": 11,
+      "name": "conv1d_10/bias:0",
+      "shape": [
+        128
+      ]
+    },
+    {
+      "index": 12,
+      "name": "conv1d_11/kernel:0",
+      "shape": [
+        3,
+        128,
+        128
+      ]
+    },
+    {
+      "index": 13,
+      "name": "conv1d_11/bias:0",
+      "shape": [
+        128
+      ]
+    },
+    {
+      "index": 14,
+      "name": "conv1d_12/kernel:0",
+      "shape": [
+        1,
+        768,
+        23
+      ]
+    },
+    {
+      "index": 15,
+      "name": "conv1d_12/bias:0",
+      "shape": [
+        23
+      ]
+    }
+  ],
+  "positive_conditioned_generated_count": 1000,
+  "finished_utc": "2026-11-14T09:32:36.377036+00:00"
+}
