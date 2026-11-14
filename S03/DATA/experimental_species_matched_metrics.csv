@@ -1,0 +1,4 @@
+representation,analysis,n_pairs,n,n_strong,n_weak,roc_auc,average_precision,balanced_accuracy_at_05,brier
+21D_composition_length,species_composition_matched,563,1126,563,563,0.8282355687780193,0.8111249366035573,0.7531083481349912,0.17234840318043668
+90D_PACE_descriptors,species_composition_matched,563,1126,563,563,0.8461994706106906,0.8435093311900679,0.7522202486678509,0.17035587658635495
+species_only,species_composition_matched,563,1126,563,563,0.4877495906539756,0.4936239469793559,0.5,0.2557621861570817

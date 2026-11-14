@@ -1,0 +1,5 @@
+active_cutoff,weak_cutoff,representation,n,active,weak,auc_using_models_fitted_on_original_10v64_labels
+8,128,21D_composition_length,1636,1437,199,0.9404468410248878
+8,128,90D_PACE_descriptors,1636,1437,199,0.9295713081762327
+5,128,21D_composition_length,1142,943,199,0.9449527595559984
+5,128,90D_PACE_descriptors,1142,943,199,0.9323233345944996

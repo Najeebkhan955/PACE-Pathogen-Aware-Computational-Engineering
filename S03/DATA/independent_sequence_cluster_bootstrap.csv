@@ -1,0 +1,4 @@
+analysis,metric,observed,bootstrap_95_lo,bootstrap_95_hi,bootstrap_iterations,bootstrap_group
+GRAMPA_ESKAPE_grouped_CV,90D_PACE_descriptors,0.9042476083051343,0.888518660785517,0.9193064728676242,1200,distinct_peptide_sequence
+GRAMPA_ESKAPE_grouped_CV,21D_composition_length,0.9105433011655597,0.8949255987899339,0.9251210602235045,1200,distinct_peptide_sequence
+GRAMPA_ESKAPE_grouped_CV,90D_minus_21D,-0.006295692860425417,-0.016883990684242206,0.0036822579314569944,1200,distinct_peptide_sequence
