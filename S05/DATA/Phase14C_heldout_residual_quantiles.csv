@@ -1,0 +1,15 @@
+target,source,n,rmse_log10,mae_log10,abs_error_q90_log10,concentration_upper_lower_fold,comment
+E. faecium,random_oof,780,0.6333819248284593,0.452399014180991,0.9148574286169788,67.5639228337498,Diagnostic empirical residual quantile; not a calibrated coverage guarantee for PACE leads
+E. faecium,similarity_group_oof,780,0.7077968676847052,0.5250857951709025,1.041989362612058,121.332941166331,Diagnostic empirical residual quantile; not a calibrated coverage guarantee for PACE leads
+S. aureus,random_oof,4128,0.5454040702293398,0.41284872863120725,0.8865254273271268,59.29947585219939,Diagnostic empirical residual quantile; not a calibrated coverage guarantee for PACE leads
+S. aureus,similarity_group_oof,4128,0.6259547078591342,0.49917499926984715,1.011808507067556,105.58859575295573,Diagnostic empirical residual quantile; not a calibrated coverage guarantee for PACE leads
+K. pneumoniae,random_oof,743,0.541894750008399,0.3918642732761533,0.8967890131974428,62.169593311133625,Diagnostic empirical residual quantile; not a calibrated coverage guarantee for PACE leads
+K. pneumoniae,similarity_group_oof,743,0.6144406606311434,0.47180436596105957,0.9676754194654003,86.16895753749297,Diagnostic empirical residual quantile; not a calibrated coverage guarantee for PACE leads
+A. baumannii,random_oof,306,0.6106764155002609,0.4320011040481179,1.0088310751455372,104.15068970978353,Diagnostic empirical residual quantile; not a calibrated coverage guarantee for PACE leads
+A. baumannii,similarity_group_oof,306,0.65645946568324,0.498971105972599,1.1160475481657885,170.64560063238443,Diagnostic empirical residual quantile; not a calibrated coverage guarantee for PACE leads
+P. aeruginosa,random_oof,2517,0.5054219122216289,0.37896166280419546,0.837195524155211,47.24882886384718,Diagnostic empirical residual quantile; not a calibrated coverage guarantee for PACE leads
+P. aeruginosa,similarity_group_oof,2517,0.5911486500582968,0.4634881057945429,0.9345260972989401,73.96941680130183,Diagnostic empirical residual quantile; not a calibrated coverage guarantee for PACE leads
+E. cloacae,random_oof,304,0.5455723754488154,0.3952992870878131,0.8484756707146521,49.76813213912486,Diagnostic empirical residual quantile; not a calibrated coverage guarantee for PACE leads
+E. cloacae,similarity_group_oof,304,0.6642845236656694,0.5246156335896232,1.0715570226491296,139.0317679318033,Diagnostic empirical residual quantile; not a calibrated coverage guarantee for PACE leads
+HC50,random_oof,1271,0.5942250028507804,0.4542799580869376,0.9529830356950006,80.53155246647282,Diagnostic empirical residual quantile; not a calibrated coverage guarantee for PACE leads
+HC50,similarity_group_oof,1271,0.7088913688976431,0.5744285026621585,1.0831861649299999,146.6804824910548,Diagnostic empirical residual quantile; not a calibrated coverage guarantee for PACE leads
