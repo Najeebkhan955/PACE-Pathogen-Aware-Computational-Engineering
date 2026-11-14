@@ -1,0 +1,11 @@
+﻿endpoint,fold,train_unique_sequences,test_unique_sequences,train_species_rows,test_species_rows,train_count_species_a,train_count_species_b
+Enterococcus pooled,1,624,156,744,178,199,545
+Enterococcus pooled,2,624,156,733,189,184,549
+Enterococcus pooled,3,624,156,738,184,189,549
+Enterococcus pooled,4,624,156,735,187,185,550
+Enterococcus pooled,5,624,156,738,184,187,551
+Enterobacter pooled,1,243,61,281,69,218,63
+Enterobacter pooled,2,243,61,277,73,217,60
+Enterobacter pooled,3,243,61,283,67,217,66
+Enterobacter pooled,4,243,61,279,71,220,59
+Enterobacter pooled,5,244,60,280,70,216,64

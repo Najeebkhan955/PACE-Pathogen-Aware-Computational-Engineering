@@ -1,0 +1,7 @@
+﻿endpoint,stratification,species_a,species_b,n_pairs,mean_log10_difference,median_log10_difference,median_absolute_log10_difference,percent_abs_difference_at_least_0p301,fraction_equal,exploratory_wilcoxon_p
+Enterococcus pooled,same_sequence,E. faecium,E. faecalis,142,-0.18431423441408532,0.0,0.24894277107461532,0.4225352112676056,0.3873239436619718,0.0015653032430106688
+Enterococcus pooled,same_sequence_and_database,E. faecium,E. faecalis,151,-0.1704932268512579,0.0,0.27517118396736817,0.4370860927152318,0.39072847682119205,0.0018675061017389494
+Enterococcus pooled,same_sequence_database_modification,E. faecium,E. faecalis,151,-0.1704932268512579,0.0,0.27517118396736817,0.4370860927152318,0.39072847682119205,0.0018675061017389494
+Enterobacter pooled,same_sequence,E. cloacae,E. aerogenes,46,-0.06429384651290747,0.0,0.0,0.1956521739130435,0.6086956521739131,0.18283358722903342
+Enterobacter pooled,same_sequence_and_database,E. cloacae,E. aerogenes,48,-0.0341796538847429,0.0,0.0,0.20833333333333334,0.6041666666666666,0.4314482831596509
+Enterobacter pooled,same_sequence_database_modification,E. cloacae,E. aerogenes,48,-0.0341796538847429,0.0,0.0,0.20833333333333334,0.6041666666666666,0.4314482831596509
