@@ -1,0 +1,3 @@
+split,n_original,n_evaluated,n_removed,n_short,n_dev_overlap
+heldout,1568,1328,240,73,167
+external,1848,1722,126,125,1
