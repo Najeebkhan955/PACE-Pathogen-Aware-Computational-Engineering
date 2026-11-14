@@ -1,0 +1,5 @@
+﻿endpoint,stratification,n_independent_peptides,n_total_matched_metadata_groups,mean_difference,median_difference,fraction_abs_difference_ge2fold,paired_wilcoxon_p_exploratory
+Enterobacter pooled,same_sequence_and_database,45,48,-0.04147546407145505,0.0,0.15555555555555556,0.24374552107430703
+Enterobacter pooled,same_sequence_database_modification,45,48,-0.04147546407145505,0.0,0.15555555555555556,0.24374552107430703
+Enterococcus pooled,same_sequence_and_database,142,151,-0.19303224942600694,0.0,0.4225352112676056,0.0007634881773365164
+Enterococcus pooled,same_sequence_database_modification,142,151,-0.19303224942600694,0.0,0.4225352112676056,0.0007634881773365164

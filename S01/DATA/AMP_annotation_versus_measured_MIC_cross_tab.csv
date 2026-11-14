@@ -1,0 +1,4 @@
+split,measured_target_specific_records,unique_peptide_sequences,target_specific_weak_MIC_records,weak_MIC_records_annotated_AMP_in_AMPlify,strong_MIC_records,strong_MIC_records_annotated_AMP_in_AMPlify
+heldout,77,60,23,23,54,54
+external,90,55,28,25,62,61
+both,167,115,51,48,116,115
