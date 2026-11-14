@@ -1,0 +1,20 @@
+# Preserve research evidence bytes exactly across Windows/macOS/Linux checkouts.
+# Important: many curated source CSVs contain CRLF line endings and are hashed as delivered.
+*.csv -text
+*.tsv -text
+*.txt -text
+*.json -text
+*.ipynb -text
+*.py -text
+*.md -text
+*.fasta -text
+*.fa -text
+*.sh -text
+*.yml -text
+*.yaml -text
+*.xlsx binary
+*.zip binary
+*.npz binary
+*.png binary
+*.h5 binary
+*.pdf binary

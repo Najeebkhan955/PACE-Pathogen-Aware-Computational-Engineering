@@ -1,69 +1,66 @@
-# PACE — Pathogen-Aware Computational Engineering
+# PACE | Pathogen-Aware Computational Engineering
 
-**Computational antimicrobial peptide discovery and de novo design for ESKAPE-priority pathogens**
+**A computational evolutionary framework for ESKAPE-directed antimicrobial peptide discovery and de novo design**
 
-[![Data](https://img.shields.io/badge/Supplementary-S01%E2%80%93S12-235b80)](./supplementary)
-[![Status](https://img.shields.io/badge/Status-data%20deposition%20in%20progress-e8a431)](./supplementary)
-[![License](https://img.shields.io/badge/License-see%20data%20sources-lightgrey)](./DATA_SOURCES.md)
+[![Supplementary](https://img.shields.io/badge/Research%20data-S01%E2%80%93S12-164b74)](supplementary/) [![Reproducibility](https://img.shields.io/badge/Code-Python-227d69)](code/) [![Integrity](https://img.shields.io/badge/Integrity-SHA--256-227d69)](MASTER_MANIFEST_SHA256.csv)
 
-## Overview
+## Project overview
 
-PACE combines sequence-based machine-learning models, physicochemical descriptors, six ESKAPE-associated MIC prediction endpoints, HC50/hemolysis prediction, and genetic-algorithm candidate prioritization. Subsequent computational analyses evaluate pretrained ESM-2 representations, multi-task modeling, measured target-specific activity controls, species pooling, an NSGA-II comparator, and external AMP design approaches.
+PACE combines curated antimicrobial peptide data, handcrafted sequence representations, AMP classification, quantitative MIC and HC50 prediction, and genetic-algorithm candidate prioritization. Supporting computational analyses evaluate pretrained ESM-2 representations, multitask models, experimentally measured target-specific activity controls, species-pooling sensitivity, NSGA-II versus GA, and external AMP generators.
 
-**Important distinction:** The 20 designed PACE peptides are *computational candidates*. Their predicted activity and selectivity are not experimental measurements.
+**The 20 final PACE sequences are computationally designed candidates. Predicted antimicrobial activity and hemolysis are not laboratory-validated outcomes.**
 
-## Repository status
+## Start here
 
-| Collection | Current status | Link |
-|---|---|---|
-| S01–S12 Excel supplementary summaries | **Uploaded** | [Browse 12 workbooks](./supplementary) |
-| Supplementary CSV index | **Uploaded** | [Index](./supplementary/SUPPLEMENTARY_INDEX.csv) |
-| Full row-level CSV matrices | **Deposit in progress** | [Data landing page](./data/README.md) |
-| Original and analysis Python scripts | **Deposit in progress** | [Code landing page](./code/README.md) |
-| Peptide FASTA sequences | **Deposit in progress** | [Sequences landing page](./sequences/README.md) |
-
-The summary workbooks **do not replace** full underlying row-level data. No complete-data or independent reproduction claim should be made until the remaining files are uploaded and verified.
-
-## Supplementary data guide
-
-| Group | Topic |
+| Resource | Contents |
 |---|---|
-| **S01** | Dataset provenance and activity/MIC data curation |
-| **S02** | AMP classification and independent AMPScanner v2 comparison |
-| **S03** | Measured peptide–pathogen activity control benchmarks |
-| **S04** | Six ESKAPE MIC prediction endpoints |
-| **S05** | HC50/hemolysis modeling and uncertainty |
-| **S06** | ESM-2 embeddings, hybrid models, and QMAP evaluation |
-| **S07** | Multi-task learning, species pooling, measured specificity |
-| **S08** | Original 20 leads, design filters and applicability domain |
-| **S09** | Fitness-objective ablations |
-| **S10** | Ten-seed GA versus NSGA-II analysis |
-| **S11** | Exploratory HydrAMP and reconstructed AMPGAN v2 comparisons |
-| **S12** | Scripts, inputs and source provenance |
+| [S01–S12 supplementary Excel workbooks](supplementary/) | Twelve readable scientific summary/index workbooks |
+| [Full supporting datasets](S01/) | S01–S12 organized `DATA/` folders with row-level CSV, FASTA, and figures |
+| [Original PACE Python code](code/original_PACE/) | Author-supplied source scripts and execution order |
+| [Additional analysis scripts](S12/DATA/) | Independent calculation, validation, notebook and verification code |
+| [Reproducibility guide](docs/03_REPRODUCIBILITY.md) | File integrity and archive recovery |
+| [Data provenance](DATA_SOURCES.md) | Source citations, license caveats and data lineage |
+| [Supplementary index](SUPPLEMENTARY_INDEX.csv) | Dataset-level summary |
+| [Visually formatted overview](PACE_Repository_Overview.xlsx) | Workbook for navigating supplemental results |
 
-## Analysis interpretation
+## Supplementary research groups
 
-- MIC and HC50 values for original PACE leads are **model predictions**, not laboratory-confirmed activity.
-- The independent AMPScanner comparison concerns **AMP classification** on retained sequences; it is not an assay hit-rate comparison.
-- The NSGA-II and external-generator comparisons involve model scores and differing methodological conditions; do not interpret them as experimentally demonstrated superiority.
-- Species-group pooling and assay heterogeneity are evaluated in supporting sensitivity analyses.
-- Some subsequent analyses use reconstructed/refitted models instead of original saved fitted artifacts. The distinction is documented.
+| Group | Area | Location |
+|---|---|---|
+| S01 | Source curation and provenance | [S01](S01/) |
+| S02 | AMP classification and independent AMPScanner benchmark | [S02](S02/) |
+| S03 | Measured target-specific activity and negative-control analyses | [S03](S03/) |
+| S04 | Six ESKAPE MIC prediction endpoints and held-out results | [S04](S04/) |
+| S05 | HC50/hemolysis estimates and uncertainty | [S05](S05/) |
+| S06 | ESM-2, hybrid prediction and QMAP benchmarks | [S06](S06/) |
+| S07 | Multitask learning and species-level MIC sensitivity | [S07](S07/) |
+| S08 | Original 20 leads, FASTA, diversity and applicability domain | [S08](S08/) |
+| S09 | GA objective ablation experiments | [S09](S09/) |
+| S10 | Controlled GA vs NSGA-II comparison, all candidate evaluations | [S10](S10/) |
+| S11 | HydrAMP and reconstructed AMPGAN v2 comparisons | [S11](S11/) |
+| S12 | Reproducibility notebooks, scripts and source-code archive | [S12](S12/) |
 
-## Getting started
+## Reproduce and validate
 
-1. Review the [supplementary index](./supplementary/SUPPLEMENTARY_INDEX.csv) and the S01–S12 workbooks.
-2. Consult [data sources and attribution](./DATA_SOURCES.md).
-3. When the full scripts and data have been uploaded, follow the [code guide](./code/README.md) to reproduce supported analyses.
-4. Use SHA-256 manifests to verify the version-specific scientific files.
+Requires Python 3 for integrity checks. From the root of a cloned repository:
 
-## Citation and availability
+```bash
+python code/verify_checksums.py
+python code/verify_repository_manifest.py
+python code/reassemble_archives.py --verify-only
+python code/reassemble_archives.py
+```
 
-**Associated manuscript:** *PACE: Pathogen-Aware Computational Engineering Evolutionary Framework for ESKAPE-Directed Antimicrobial Peptide Discovery and De Novo Design* (under revision).
+**Large original result archives are available losslessly** as `.zip.part001` etc, each approximately 2 MiB, in `S06/DATA/` and `S10/DATA/`. The reassembly script joins these chunks, verifies per-part SHA-256 and verifies the reconstructed ZIP SHA-256. The ZIP archives are not shortened.
 
-**Repository:** https://github.com/Najeebkhan955/PACE-Pathogen-Aware-Computational-Engineering
+## Reproducibility scope
 
-No permanent archival DOI is claimed. Do not cite this repository as a complete code-and-data deposit until all listed materials are available.
+The repository preserves available source code, numerical model comparisons and full retained computational analysis outputs. Some analyses rely on refitted or reconstructed models; the original saved fitted-model artifacts and exact historical GA run were not provided. Benchmarks using a common scoring model must not be interpreted as experimentally demonstrated antimicrobial hit rates.
 
-## Research integrity and privacy
+## Data availability and citation
 
-Reviewer correspondence and unpublished manuscript drafts are intentionally **not** included. External datasets, pretrained weights and third-party code retain the licenses and attribution requirements of their original sources.
+Public repository: **https://github.com/Najeebkhan955/PACE-Pathogen-Aware-Computational-Engineering**. See [citation guidance](CITATION.md). A permanent archived release DOI has not been assigned. The associated manuscript is under revision, not claimed published.
+
+## Responsible reuse
+
+The source datasets and third-party benchmark software have distinct owners and reuse terms. See [data sources](DATA_SOURCES.md) and [license notes](docs/04_ATTRIBUTION_AND_LICENSES.md). No blanket license is asserted. Reviewer comments, editor correspondence and manuscript drafts are excluded from this public repository.

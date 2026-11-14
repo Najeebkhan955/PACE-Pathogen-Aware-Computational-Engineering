@@ -1,0 +1,15 @@
+# Local and temporary files only
+.DS_Store
+Thumbs.db
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+*.tmp
+*.swp
+~$*.xlsx
+# Do not publish the manuscript or private reviewer materials
+**/Response to reviewers comments.docx
+**/Manuscript(1).docx
+**/*Reviewer_Response*.docx

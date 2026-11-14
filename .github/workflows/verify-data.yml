@@ -1,0 +1,13 @@
+name: Verify PACE data integrity
+on: [push, workflow_dispatch]
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check  scientific results and original code
+        run: python3 code/verify_checksums.py
+      - name: Check repository documentation and source files
+        run: python3 code/verify_repository_manifest.py
+      - name: Verify split original result archives
+        run: python3 code/reassemble_archives.py --verify-only

@@ -1,0 +1,8 @@
+source_name,dataset_role,official_source_URL_or_file,caveat
+AMPlify,AMP identification source (training/test FASTA),https://github.com/bcgsc/AMPlify,Curation/external overlap recorded in original S1 and Phase 8 manifest
+GRAMPA,Experimental MIC compilation,https://github.com/zswitten/Antimicrobial-Peptides,"Source link, curated analytical subset; database assay records have heterogeneity"
+HC50,User-provided curated hemolysis input,User-provided Cleaned_hemolytic_data.csv,Original data unchanged; exact assay source refer to original S1
+QMAP,Homology-aware MIC and HC50 evaluation,https://github.com/anthol42/QMAP,Independent QMAP split predictions
+AMPScanner v2,Independent AMP classifier pretrained source,https://github.com/dan-veltri/amp-scanner-v2,External model evaluated on overlap-filtered retained sequences
+HydrAMP,Original top peptide library,https://github.com/szczurek-lab/hydramp-starter-kit,"100 published output peptides included, original FASTA"
+AMPGAN v2,Release-tag model/checkpoint,https://gitlab.com/vail-uvm/amp-gan,Reconstructed inference; native historical equivalence unverified
