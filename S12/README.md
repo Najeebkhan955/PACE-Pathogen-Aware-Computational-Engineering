@@ -1,10 +1,10 @@
 # S12 — Data availability and reproducible code
 
-Original PACE scripts, versioned source feature engine, independent metric calculators, run order and checksums.
+PACE computational code, model settings, numerical analysis records, and data-integrity manifests.
 
-**Data policy:** The Excel workbook provides index and readable summaries. Full original records are preserved in the DATA/ folder, without record truncation. Original raw user manuscript, reviewer text, and author inputs were not edited.
+**Data organization:** The supplementary workbook provides scientific summary and index tables; deposited row-level numerical data, figure files, and scripts are in `DATA/` where applicable. File names, source provenance, and SHA-256 checksums are preserved for traceability.
 
-**Scientific note:** Missing original fitted model pickles and historical GA full archives prevent exact original trajectory replication.
+**Scientific interpretation:** The deposited code and numerical outputs support the documented analyses; exact GA replay may require fitted-model artifacts not included in the repository.
 
 ## Complete files
 
@@ -30,5 +30,3 @@ Original PACE scripts, versioned source feature engine, independent metric calcu
 | phase15_build.py |  | phase15_build.py | `494bffd877edae650d5d6af9a59e1a10980bf86d78cca94af7b194b7e7bb953e` |
 | original_PACE_90D_features_readonly_copy.py |  | pace_phase14c_analysis/original_PACE_90D_features_readonly_copy.py | `bbab620e5593d98e0bfc66c2e54129ca0e040a67321d08e7d679dc19bcd38200` |
 | S12_Supplementary_Tables.xlsx |  | Generated with artifact_tool from original verified CSV files | `85ffa6bd25e847a74c0cef1faa0e279bede5880524481461741944eaa19b9058` |
-
-**Naming:** Reviewer comments are not present or modified in these submission-oriented supplements. Use the separate verbatim comment/source letter during final author response preparation.
