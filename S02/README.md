@@ -1,10 +1,10 @@
 # S02 — AMP classification and independent external predictor
 
-AMP labeling, held-out predictions and overlap-filtered AMPScanner v2 comparator.
+AMP classifier development, held-out evaluation, and external predictor benchmarks.
 
-**Data policy:** The Excel workbook provides index and readable summaries. Full original records are preserved in the DATA/ folder, without record truncation. Original raw user manuscript, reviewer text, and author inputs were not edited.
+**Data organization:** The supplementary workbook provides scientific summary and index tables; deposited row-level numerical data, figure files, and scripts are in `DATA/` where applicable. File names, accession provenance, and checksums are preserved for traceability.
 
-**Scientific note:** Public-source dataset redistribution and assay/license conditions must be checked before submission.
+**Scientific interpretation:** Classifier performance is evaluated on the specified training, held-out, and independent external cohorts.
 
 ## Complete files
 
@@ -19,5 +19,3 @@ AMP labeling, held-out predictions and overlap-filtered AMPScanner v2 comparator
 | classification_metrics.csv | 16 | PACE_Phase8_ESM2_results.zip::classification_metrics.csv | `0554836dd5278f96a53f38b416add929ab3ce6741a6e5d830296d866f77e6953` |
 | AMPScanner_PACE_matched_predictions.csv | 3050 | PACE_Phase14B_AMPScanner_External_Results.zip::AMPScanner_PACE_matched_predictions.csv | `5fbd2a37b68b2cd5a2cb27c48053943f5ed638dbdcd1a62ced6433f7a450795b` |
 | S02_Supplementary_Tables.xlsx |  | Generated with artifact_tool from original verified CSV files | `ab9b4ea8c33ac84b5ca8e0bb93609022c043b21651561d5f9141abd53480eafa` |
-
-**Naming:** Reviewer comments are not present or modified in these submission-oriented supplements. Use the separate verbatim comment/source letter during final author response preparation.
