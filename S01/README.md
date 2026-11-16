@@ -1,10 +1,10 @@
 # S01 — Source provenance and curation
 
-Data sources, original curated records, original input metadata and transparent curation checks.
+Source data provenance, peptide eligibility, and curated sequence records.
 
-**Data policy:** The Excel workbook provides index and readable summaries. Full original records are preserved in the DATA/ folder, without record truncation. Original raw user manuscript, reviewer text, and author inputs were not edited.
+**Data organization:** The supplementary workbook provides scientific summary and index tables; deposited row-level numerical data, figure files, and scripts are in `DATA/` where applicable. File names, accession provenance, and checksums are preserved for traceability.
 
-**Scientific note:** Public-source dataset redistribution and assay/license conditions must be checked before submission.
+**Scientific interpretation:** Source datasets retain their experimental context, accession details, and reuse conditions.
 
 ## Complete files
 
@@ -17,5 +17,3 @@ Data sources, original curated records, original input metadata and transparent 
 | Phase14C_seven_original_input_sha256.csv | 7 | pace_phase14c_analysis/Phase14C_seven_original_input_sha256.csv | `10839568ad96f72ba696e9ee45a4d55cce1f432efe92fc7d420673d01c066baa` |
 | Supplementary_Data_S1(1).xlsx |  | Supplementary_Data_S1(1).xlsx | `cca3dc4404541d512e871b19521b2db67b1e8a7b9bccc340c5862b9dd323abe0` |
 | S01_Supplementary_Tables.xlsx |  | Generated with artifact_tool from original verified CSV files | `78ed4a9a5a0607f207fbb0934006e1cd52fbd51dc2b5ca3ba7907a53ba3bc5a0` |
-
-**Naming:** Reviewer comments are not present or modified in these submission-oriented supplements. Use the separate verbatim comment/source letter during final author response preparation.
