@@ -1,10 +1,10 @@
 # S11 — External generated libraries and comparative rescoring
 
-Published HydrAMP candidates, original-checkpoint reconstructed AMPGAN v2 peptides, PACE leads and length sensitivity.
+HydrAMP and reconstructed AMPGAN v2 peptide libraries, common-surrogate scoring, and length-sensitive comparisons.
 
-**Data policy:** The Excel workbook provides index and readable summaries. Full original records are preserved in the DATA/ folder, without record truncation. Original raw user manuscript, reviewer text, and author inputs were not edited.
+**Data organization:** The supplementary workbook provides scientific summary and index tables; deposited row-level numerical data, figure files, and scripts are in `DATA/` where applicable. File names, source provenance, and SHA-256 checksums are preserved for traceability.
 
-**Scientific note:** AMPGAN candidate sequences used checkpoint-weight reconstructed inference; native historical equivalence not verified.
+**Scientific interpretation:** Comparative surrogate scores are model-derived, not experimental measurements of antimicrobial hit rates.
 
 ## Complete files
 
@@ -25,5 +25,3 @@ Published HydrAMP candidates, original-checkpoint reconstructed AMPGAN v2 peptid
 | generator_restored_variable_inventory.json |  | PACE_Phase11E5_Results.zip::generator_restored_variable_inventory.json | `66941b81bc8bd57ab0af8eea75f9071313ea2bdaec0a8dd04e6b621cd1a95c37` |
 | status.json |  | PACE_Phase11E5_Results.zip::status.json | `8f42aac02d04a94a83283066fb784f14f58a80f354979fc20763459fea049a23` |
 | S11_Supplementary_Tables.xlsx |  | Generated with artifact_tool from original verified CSV files | `731dcd0069dad9dde1b1b8fb84732e6c9312a1767aa8c66624c014117930bbcb` |
-
-**Naming:** Reviewer comments are not present or modified in these submission-oriented supplements. Use the separate verbatim comment/source letter during final author response preparation.
