@@ -1,10 +1,10 @@
-# S08 — Original 20 leads and applicability domain
+# S08 — PACE candidate peptides and applicability domain
 
-Complete lead sequences, original source predictions, seven-target applicability domain and ranking diagnostics.
+Twenty designed PACE peptides, model predictions, seven-endpoint applicability-domain results, and ranking stability.
 
-**Data policy:** The Excel workbook provides index and readable summaries. Full original records are preserved in the DATA/ folder, without record truncation. Original raw user manuscript, reviewer text, and author inputs were not edited.
+**Data organization:** The supplementary workbook provides scientific summary and index tables; deposited row-level numerical data, figure files, and scripts are in `DATA/` where applicable. File names, source provenance, and SHA-256 checksums are preserved for traceability.
 
-**Scientific note:** Original 20 lead potency and selectivity are computational predictions, not experimental validation.
+**Scientific interpretation:** The lead library consists of 20 computational candidates; modeled selectivity and descriptor-domain placement do not establish experimental antimicrobial efficacy.
 
 ## Complete files
 
@@ -20,5 +20,3 @@ Complete lead sequences, original source predictions, seven-target applicability
 | Phase14C_Figure_original_vs_refit.png |  | pace_phase14c_analysis/Phase14C_Figure_original_vs_refit.png | `5e6500639ebd81e3bad846801dbe8e707d1e0ee12eb72e78350d2a174329b90c` |
 | Supplementary_Data_S2_designed_peptides(1).fasta |  | Supplementary_Data_S2_designed_peptides(1).fasta | `6232f4cdd5c480fce9955be67f19eea36029b3e512c5743af44de9c719d76ba0` |
 | S08_Supplementary_Tables.xlsx |  | Generated with artifact_tool from original verified CSV files | `72f2c3a67a4b9cfc3ab0c8fd7b42947ff4919e5b7ac8d9dccfe78b7921573e6b` |
-
-**Naming:** Reviewer comments are not present or modified in these submission-oriented supplements. Use the separate verbatim comment/source letter during final author response preparation.
