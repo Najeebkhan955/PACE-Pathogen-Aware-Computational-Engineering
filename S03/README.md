@@ -1,10 +1,10 @@
 # S03 — Measured potency and weak-activity negative controls
 
-Experimental, species-specific strong- versus weak-activity peptide observations and composition-matched controls.
+Measured peptide–pathogen potency controls and composition–length comparisons.
 
-**Data policy:** The Excel workbook provides index and readable summaries. Full original records are preserved in the DATA/ folder, without record truncation. Original raw user manuscript, reviewer text, and author inputs were not edited.
+**Data organization:** The supplementary workbook provides scientific summary and index tables; deposited row-level numerical data, figure files, and scripts are in `DATA/` where applicable. File names, accession provenance, and checksums are preserved for traceability.
 
-**Scientific note:** Measured weak activity is pathogen-specific. MIC≥64 uM cannot establish universal non-AMP status.
+**Scientific interpretation:** Strong MIC activity (≤10 µM) and target-specific weak activity (≥64 µM) do not define universal peptide activity.
 
 ## Complete files
 
@@ -20,5 +20,3 @@ Experimental, species-specific strong- versus weak-activity peptide observations
 | direct_AMP_classifier_measuredMIC_overlap.csv | 167 | pace_phase12b_analysis/direct_AMP_classifier_measuredMIC_overlap.csv | `38ace7ba657682134bda0d01d097bda1e0e11c2a64580038f2f390810e25e740` |
 | direct_AMP_classifier_measuredMIC_overlap_metrics.csv | 12 | pace_phase12b_analysis/direct_AMP_classifier_measuredMIC_overlap_metrics.csv | `bbece35ffcfe18b64cf9ca0f3cb15c87042a31c517d6421d3bf5428aabed30a4` |
 | S03_Supplementary_Tables.xlsx |  | Generated with artifact_tool from original verified CSV files | `15b6ec8bc8e1cfc5e3258dbb7986e9016278ccee8a6fcac277c9996431774787` |
-
-**Naming:** Reviewer comments are not present or modified in these submission-oriented supplements. Use the separate verbatim comment/source letter during final author response preparation.
