@@ -1,10 +1,10 @@
 # S06 — Protein language models and QMAP transfer
 
-Original 90D, 21D, pretrained ESM-2, hybrid comparisons and QMAP benchmark OOF predictions.
+90-descriptor, composition–length, ESM-2, hybrid and QMAP comparisons.
 
-**Data policy:** The Excel workbook provides index and readable summaries. Full original records are preserved in the DATA/ folder, without record truncation. Original raw user manuscript, reviewer text, and author inputs were not edited.
+**Data organization:** The supplementary workbook provides scientific summary and index tables; deposited row-level numerical data, figure files, and scripts are in `DATA/` where applicable. File names, accession provenance, and checksums are preserved for traceability.
 
-**Scientific note:** ESM-2 model (8M, pretrained) is a specific tested PLM, not a complete search of all protein language models.
+**Scientific interpretation:** The protein-language-model benchmarks are separate from the 90-descriptor models used in PACE sequence search.
 
 ## Complete files
 
@@ -21,5 +21,3 @@ Original 90D, 21D, pretrained ESM-2, hybrid comparisons and QMAP benchmark OOF p
 | qmap_split_metrics.csv | 30 | PACE_Phase11B_QMAP_Results.zip::qmap_split_metrics.csv | `4d09d89efa776ff2898381dbd8a7e27d5cac4d67bbe60f152c15e10fb448fcb2` |
 | manifest.json |  | PACE_Phase8_ESM2_results.zip::manifest.json | `5b19ced319511979f2642cacdc171d8afa8babaef41a8696ef97a7e27adec681` |
 | S06_Supplementary_Tables.xlsx |  | Generated with artifact_tool from original verified CSV files | `4ae54bafda770ee9f8a693ef263881519e2b71b6158675cc1462155d197b43ea` |
-
-**Naming:** Reviewer comments are not present or modified in these submission-oriented supplements. Use the separate verbatim comment/source letter during final author response preparation.
