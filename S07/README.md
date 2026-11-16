@@ -1,10 +1,10 @@
 # S07 — Multi-task species pooling and cross-pathogen evidence
 
-Masked multi-task OOF outputs, group-held-out species pooling, cross-pathogen paired measured MIC.
+Masked multitask learning, pooled-species modeling, and measured cross-pathogen MIC contrasts.
 
-**Data policy:** The Excel workbook provides index and readable summaries. Full original records are preserved in the DATA/ folder, without record truncation. Original raw user manuscript, reviewer text, and author inputs were not edited.
+**Data organization:** The supplementary workbook provides scientific summary and index tables; deposited row-level numerical data, figure files, and scripts are in `DATA/` where applicable. File names, source provenance, and SHA-256 checksums are preserved for traceability.
 
-**Scientific note:** Cross-pathogen differences refer to source measured peptides, not experimental PACE lead specificity.
+**Scientific interpretation:** Cross-target contrasts describe experimentally measured source-peptide observations, not laboratory validation of PACE candidate peptides.
 
 ## Complete files
 
@@ -25,5 +25,3 @@ Masked multi-task OOF outputs, group-held-out species pooling, cross-pathogen pa
 | Phase14A_sequence_level_measured_spectrum.csv | 4477 | pace_phase14a_analysis/Phase14A_sequence_level_measured_spectrum.csv | `1b4b96153fa235b270b5dbc4f182667bf414e782514b80208f324f1febe496b0` |
 | Phase14A_source_matched_peptide_level_records.csv | 374 | pace_phase14a_analysis/Phase14A_source_matched_peptide_level_records.csv | `2dfc69a102e5ebd301cde0264fbea22a571584b03e33cee35544c1674d7f6a63` |
 | S07_Supplementary_Tables.xlsx |  | Generated with artifact_tool from original verified CSV files | `cad72b06c6de6e5ddb4202ddaf93f03b63827c028282ce0714c48cf9d69d1baa` |
-
-**Naming:** Reviewer comments are not present or modified in these submission-oriented supplements. Use the separate verbatim comment/source letter during final author response preparation.
