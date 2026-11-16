@@ -1,10 +1,10 @@
 # S05 — Hemolysis prediction and uncertainty
 
-Full curated hemolysis records, model residuals, similarity-group validation and uncertainty.
+Hemolysis records, HC₅₀ prediction, model residuals and uncertainty.
 
-**Data policy:** The Excel workbook provides index and readable summaries. Full original records are preserved in the DATA/ folder, without record truncation. Original raw user manuscript, reviewer text, and author inputs were not edited.
+**Data organization:** The supplementary workbook provides scientific summary and index tables; deposited row-level numerical data, figure files, and scripts are in `DATA/` where applicable. File names, accession provenance, and checksums are preserved for traceability.
 
-**Scientific note:** HC50 predictions are uncertain and are not hemolysis assays of the designed PACE leads.
+**Scientific interpretation:** Source hemolysis measurements and PACE candidate-level predicted HC₅₀ values are distinct evidence types.
 
 ## Complete files
 
@@ -17,5 +17,3 @@ Full curated hemolysis records, model residuals, similarity-group validation and
 | Phase14C_heldout_residual_quantiles.csv | 14 | pace_phase14c_analysis/Phase14C_heldout_residual_quantiles.csv | `da5b4824c8b221f9d5588939872815e8ef912fb65aa0e0cd98ccbb746b3ee8fd` |
 | Phase14C_all7_aligned_out_of_fold_residuals.csv | 10049 | pace_phase14c_analysis/Phase14C_all7_aligned_out_of_fold_residuals.csv | `4b54628b55d7ea8c4d74f10fcc954f2aef82d7b803fbe3f49a1d18459cdfdc2b` |
 | S05_Supplementary_Tables.xlsx |  | Generated with artifact_tool from original verified CSV files | `47b55be6c234a6f06092e5ab23adba6af471f8483c57940a343bd7166d7c02a0` |
-
-**Naming:** Reviewer comments are not present or modified in these submission-oriented supplements. Use the separate verbatim comment/source letter during final author response preparation.
