@@ -1,9 +1,11 @@
-# How to cite PACE data and code
+# Cite the PACE study, data, and code
 
-**Repository:** https://github.com/Najeebkhan955/PACE-Pathogen-Aware-Computational-Engineering
+**Study title:** *PACE: Pathogen-Aware Computational Engineering Evolutionary Framework for ESKAPE-Directed Antimicrobial Peptide Discovery and De Novo Design*
 
-**Associated manuscript:** *PACE: Pathogen-Aware Computational Engineering Evolutionary Framework for ESKAPE-Directed Antimicrobial Peptide Discovery and De Novo Design* (under revision).
+**Computational data and code:** https://github.com/Najeebkhan955/PACE-Pathogen-Aware-Computational-Engineering
 
-**Status:** Public research-data and computational-code repository. A peer-reviewed publication, permanent archived release and DOI are **not** yet claimed. For reproducibility, cite the exact Git commit SHA or a future tagged release once created.
+This repository provides the scientific data, algorithms, peptide candidates, modeling benchmarks, and S01–S12 supplementary materials supporting the named study. When citing the repository, include the **exact Git commit SHA or tagged release** used in the analysis.
 
-**Reuse:** Consult [research data provenance](DATA_SOURCE_PROVENANCE.csv) and [upstream license notes](docs/04_ATTRIBUTION_AND_LICENSES.md) before redistributing third-party datasets or code.
+A journal publication citation and permanent archived-repository DOI are **not listed here**. Add the published bibliographic record once publicly available; access to the research files does not itself demonstrate journal publication.
+
+**Third-party attribution:** Consult [data provenance](DATA_SOURCES.md) and [upstream license notes](docs/04_ATTRIBUTION_AND_LICENSES.md) for the data and software cited in the study.
