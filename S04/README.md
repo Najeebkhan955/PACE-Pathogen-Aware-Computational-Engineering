@@ -1,10 +1,10 @@
 # S04 — Six ESKAPE MIC regression models
 
-Complete independently curated target MIC, original-model and extended OOF prediction evidence.
+Six ESKAPE-associated quantitative MIC regressors and out-of-fold predictions.
 
-**Data policy:** The Excel workbook provides index and readable summaries. Full original records are preserved in the DATA/ folder, without record truncation. Original raw user manuscript, reviewer text, and author inputs were not edited.
+**Data organization:** The supplementary workbook provides scientific summary and index tables; deposited row-level numerical data, figure files, and scripts are in `DATA/` where applicable. File names, accession provenance, and checksums are preserved for traceability.
 
-**Scientific note:** All MIC values are derived from heterogeneous assay records; do not infer standard clinical efficacy.
+**Scientific interpretation:** The pooled *Enterococcus* and *Enterobacter* groupings have specified component species; assays and strains may vary.
 
 ## Complete files
 
@@ -20,5 +20,3 @@ Complete independently curated target MIC, original-model and extended OOF predi
 | quantitative_predictions.csv | 30147 | PACE_Phase8_ESM2_results.zip::quantitative_predictions.csv | `2169e8a3b203933ee302779a3803164f61e423b4ec7ebb20122f147eb84f813d` |
 | quantitative_metrics.csv | 21 | PACE_Phase8_ESM2_results.zip::quantitative_metrics.csv | `85604320f9aa7c1379b4ec35ded0969d31c541dde4ad9c5f098c440012adad09` |
 | S04_Supplementary_Tables.xlsx |  | Generated with artifact_tool from original verified CSV files | `4ba6618c03290cf32733a75fad1c6e7a67d5f248a1eaf7f383fe0f9a73faeaf9` |
-
-**Naming:** Reviewer comments are not present or modified in these submission-oriented supplements. Use the separate verbatim comment/source letter during final author response preparation.
