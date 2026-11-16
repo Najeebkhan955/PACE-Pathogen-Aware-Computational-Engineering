@@ -1,13 +1,13 @@
 group,title,description,file_count,data_records_in_csv,workbook
-S01,Source provenance and curation,"Data sources, original curated records, original input metadata and transparent curation checks.",7,10063,S01/S01_Supplementary_Tables.xlsx
-S02,AMP classification and independent external predictor,"AMP labeling, held-out predictions and overlap-filtered AMPScanner v2 comparator.",9,33874,S02/S02_Supplementary_Tables.xlsx
-S03,Measured potency and weak-activity negative controls,"Experimental, species-specific strong- versus weak-activity peptide observations and composition-matched controls.",10,5160,S03/S03_Supplementary_Tables.xlsx
-S04,Six ESKAPE MIC regression models,"Complete independently curated target MIC, original-model and extended OOF prediction evidence.",10,48364,S04/S04_Supplementary_Tables.xlsx
-S05,Hemolysis prediction and uncertainty,"Full curated hemolysis records, model residuals, similarity-group validation and uncertainty.",7,13881,S05/S05_Supplementary_Tables.xlsx
-S06,Protein language models and QMAP transfer,"Original 90D, 21D, pretrained ESM-2, hybrid comparisons and QMAP benchmark OOF predictions.",11,17990,S06/S06_Supplementary_Tables.xlsx
-S07,Multi-task species pooling and cross-pathogen evidence,"Masked multi-task OOF outputs, group-held-out species pooling, cross-pathogen paired measured MIC.",15,25610,S07/S07_Supplementary_Tables.xlsx
-S08,Original 20 leads and applicability domain,"Complete lead sequences, original source predictions, seven-target applicability domain and ranking diagnostics.",10,460,S08/S08_Supplementary_Tables.xlsx
-S09,Evolutionary design and objective ablation,"Complete reoptimization diagnostics for full, no-hemolysis, no-novelty and reduced fitness terms.",8,5166,S09/S09_Supplementary_Tables.xlsx
-S10,Controlled fixed-weight GA versus NSGA-II,"Matched 9000-unique evaluations per seed, 10 seeds per algorithm, 40 selected lead sets and full candidate archives.",8,108,S10/S10_Supplementary_Tables.xlsx
-S11,External generated libraries and comparative rescoring,"Published HydrAMP candidates, original-checkpoint reconstructed AMPGAN v2 peptides, PACE leads and length sensitivity.",15,7185,S11/S11_Supplementary_Tables.xlsx
-S12,Data availability and reproducible code,"Original PACE scripts, versioned source feature engine, independent metric calculators, run order and checksums.",20,0,S12/S12_Supplementary_Tables.xlsx
+S01,Source provenance and peptide curation,"Peptide sources, curated records, eligibility and provenance.",7,10063,S01/S01_Supplementary_Tables.xlsx
+S02,AMP recognition and external comparison,"Held-out predictions, external recognition and AMPScanner benchmark.",9,33874,S02/S02_Supplementary_Tables.xlsx
+S03,Measured target-specific activity controls,"Measured strong and target-specific weak MIC records and controls.",10,5160,S03/S03_Supplementary_Tables.xlsx
+S04,Six ESKAPE MIC regression endpoints,"Quantitative MIC models, out-of-fold predictions and error analysis.",10,48364,S04/S04_Supplementary_Tables.xlsx
+S05,Hemolysis prediction and uncertainty,"Hemolysis source data, HC50 modeling and prediction uncertainty.",7,13881,S05/S05_Supplementary_Tables.xlsx
+S06,Protein sequence representations and QMAP,"90D, 21D, ESM-2, hybrid and QMAP comparisons.",11,17990,S06/S06_Supplementary_Tables.xlsx
+S07,Multitask and species-aware sensitivity,"Multitask, pooled-species and measured cross-pathogen MIC analyses.",15,25610,S07/S07_Supplementary_Tables.xlsx
+S08,PACE candidate library and applicability domain,"Twenty PACE leads, predicted activity, diversity and applicability-domain results.",10,460,S08/S08_Supplementary_Tables.xlsx
+S09,GA fitness objective ablations,"GA fitness-component configurations and objective sensitivity.",8,5166,S09/S09_Supplementary_Tables.xlsx
+S10,Matched-budget GA versus NSGA-II,"Ten-seed equal-budget comparisons and paired statistical results.",8,108,S10/S10_Supplementary_Tables.xlsx
+S11,Generative peptide library comparisons,"HydrAMP, reconstructed AMPGAN v2, and length-sensitive surrogate scoring.",15,7185,S11/S11_Supplementary_Tables.xlsx
+S12,Computational source code and reproducibility,"Source programs, calculation scripts, archived data and checksums.",20,0,S12/S12_Supplementary_Tables.xlsx
