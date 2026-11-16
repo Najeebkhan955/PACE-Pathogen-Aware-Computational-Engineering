@@ -1,10 +1,10 @@
 # S10 — Controlled fixed-weight GA versus NSGA-II
 
-Matched 9000-unique evaluations per seed, 10 seeds per algorithm, 40 selected lead sets and full candidate archives.
+Matched-budget GA versus NSGA-II comparisons, paired statistics, and candidate outputs.
 
-**Data policy:** The Excel workbook provides index and readable summaries. Full original records are preserved in the DATA/ folder, without record truncation. Original raw user manuscript, reviewer text, and author inputs were not edited.
+**Data organization:** The supplementary workbook provides scientific summary and index tables; deposited row-level numerical data, figure files, and scripts are in `DATA/` where applicable. File names, source provenance, and SHA-256 checksums are preserved for traceability.
 
-**Scientific note:** 10 paired seeds were evaluated with 9000 unique predictions each; multiple-testing-corrected superiority not established.
+**Scientific interpretation:** Ten seeds per algorithm and 9,000 unique scored sequences per run are reported; the prespecified tests did not identify a BH-FDR-significant overall winner.
 
 ## Complete files
 
@@ -18,5 +18,3 @@ Matched 9000-unique evaluations per seed, 10 seeds per algorithm, 40 selected le
 | lead_metrics_independently_verified.csv | 40 | pace_phase10b_verified/lead_metrics_independently_verified.csv | `9a704e889ed6425a0bef1731a1bc397f4b2e43daf2cb3f538e73491e7d2c15d2` |
 | PACE_Phase10B_Controlled_Results.zip |  | PACE_Phase10B_Controlled_Results.zip | `54f5e7472bbd0b638813d4415aabbb68134177500a4ea996ad0ee6cb314517cd` |
 | S10_Supplementary_Tables.xlsx |  | Generated with artifact_tool from original verified CSV files | `285682d9ad4704dd9df13071829a68658e197f47b774cb0b2fb77fa79e47ec3d` |
-
-**Naming:** Reviewer comments are not present or modified in these submission-oriented supplements. Use the separate verbatim comment/source letter during final author response preparation.
