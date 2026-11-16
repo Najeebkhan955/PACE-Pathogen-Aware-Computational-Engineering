@@ -1,10 +1,10 @@
 # S09 — Evolutionary design and objective ablation
 
-Complete reoptimization diagnostics for full, no-hemolysis, no-novelty and reduced fitness terms.
+Genetic algorithm objective components, search behavior, and fitness-ablation experiments.
 
-**Data policy:** The Excel workbook provides index and readable summaries. Full original records are preserved in the DATA/ folder, without record truncation. Original raw user manuscript, reviewer text, and author inputs were not edited.
+**Data organization:** The supplementary workbook provides scientific summary and index tables; deposited row-level numerical data, figure files, and scripts are in `DATA/` where applicable. File names, source provenance, and SHA-256 checksums are preserved for traceability.
 
-**Scientific note:** Ablation trajectories use refitted predictors; not the original historical training snapshots.
+**Scientific interpretation:** The objective ablations compare defined weighted-fitness configurations and specified predictive model conditions.
 
 ## Complete files
 
@@ -18,5 +18,3 @@ Complete reoptimization diagnostics for full, no-hemolysis, no-novelty and reduc
 | phase9_ablation_summary.json |  | PACE_Phase9_Full_GA_Colab_Results (1).zip::phase9_ablation_summary.json | `8d6cebb914f0ec6c87e273e1448acf0f23c03d3de6278cabe07c4c83be24c9e4` |
 | full_protocol_model_provenance.json |  | PACE_Phase9_Full_GA_Colab_Results (1).zip::full_protocol_model_provenance.json | `de1d25e2393104b2bc9c9fe405592a218e89e64f1891403a7a89ca5e36291380` |
 | S09_Supplementary_Tables.xlsx |  | Generated with artifact_tool from original verified CSV files | `2b91a34bcbd7b671b7dd510e93966d78edf2dffc5bb88088a6f5ede58441339c` |
-
-**Naming:** Reviewer comments are not present or modified in these submission-oriented supplements. Use the separate verbatim comment/source letter during final author response preparation.
