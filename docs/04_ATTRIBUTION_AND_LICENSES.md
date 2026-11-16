@@ -1,23 +1,24 @@
-# Research provenance, attribution and licensing
+# PACE research provenance, attribution, and licensing
 
-This repository contains author-supplied research code, derived scientific tables, and materials referencing independent third-party source projects. **A single open-source license has not been granted to the whole collection.** Rights to the code and derived material need confirmation from the corresponding owners before selecting a permissive root LICENSE.
+This repository contains research code, derived scientific tables, and materials that cite independent public datasets and software projects. Their individual reuse terms apply. A single permissive license is **not** asserted for every deposited file.
 
-## Referenced upstream projects
+## Referenced source projects
 
-| Project | Upstream URL | Note |
+| Project | Upstream URL | Scientific and licensing note |
 |---|---|---|
-| AMPlify | https://github.com/bcgsc/AMPlify | AMP classifier/source data; follow original license and data terms |
-| GRAMPA | https://github.com/zswitten/Antimicrobial-Peptides | MIC compilation; source curation and experimental heterogeneity acknowledged |
-| AMPScanner v2 | https://github.com/dan-veltri/amp-scanner-v2 | Historical pretrained comparator, upstream GPLv3 code; benchmark predictions generated separately |
-| HydrAMP | https://github.com/szczurek-lab/hydramp-starter-kit | Public baseline files; linked current starter kit states MIT for its own software, check data-source reuse |
-| AMPGAN v2 | https://gitlab.com/vail-uvm/amp-gan | Upstream 2021 publication describes MIT source code; reconstructed model inference not assumed identical |
-| QMAP | https://github.com/anthol42/QMAP | Independent quantitative peptide benchmark; check versioned source terms |
+| AMPlify | https://github.com/bcgsc/AMPlify | Peptide classification source; consult upstream software and data terms |
+| GRAMPA | https://github.com/zswitten/Antimicrobial-Peptides | Measured MIC compilation; retain source provenance |
+| AMPScanner v2 | https://github.com/dan-veltri/amp-scanner-v2 | Pretrained comparator; observe source software license conditions |
+| HydrAMP | https://github.com/szczurek-lab/hydramp-starter-kit | Generated-library comparator; verify data reuse separately from software |
+| AMPGAN v2 | https://gitlab.com/vail-uvm/amp-gan | Generated-library comparator; reconstructed inference is not assumed identical to every upstream detail |
+| QMAP | https://github.com/anthol42/QMAP | Quantitative prediction benchmark; check release-specific terms |
 
-External references are for scientific attribution, **not an assertion that all included datasets have unrestricted redistribution rights**. In particular, data aggregated from biological databases can carry their own source terms.
+## Responsible reuse
 
-## Publication decisions
+- Cite the scientific origin of each sequence corpus, model, and measured activity dataset.
+- Verify rights before redistributing externally sourced peptide libraries or database-derived assay records.
+- Preserve dataset provenance identifiers and numerical file-integrity records.
+- Distinguish measured source observations from computational predictions for the 20 PACE peptide candidates.
+- Avoid interpreting common-surrogate performance as experimental antimicrobial efficacy.
 
-- No blanket MIT, GPL, CC-BY, or other license was attached to original author content without author consent.
-- Confidential manuscript drafts and original reviewer response material are not included in this public package.
-- Reuse and citation should reflect the exact individual data source and experiment.
-- Authors should verify permission to publicly redistribute any third-party sequence library in S11 and any externally compiled source-data subset before final public deposit.
+For dataset context, see [data sources](../DATA_SOURCES.md) and [S01–S12](../SUPPLEMENTARY_INDEX.csv).
