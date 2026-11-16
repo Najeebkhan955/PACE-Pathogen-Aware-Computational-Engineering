@@ -1,42 +1,49 @@
-# Reproducibility guide
+# PACE reproducibility and computational records
 
-## 1. Verify scientific data checksums
+## Data and archive integrity
 
-From the repository root:
+From the repository root with Python 3:
 
 ```bash
 python code/verify_checksums.py
 python code/verify_repository_manifest.py
+python code/reassemble_archives.py --verify-only
 ```
 
-These are **integrity checks**, not a claim that all model training environments run with zero configuration.
+Checksum verification confirms data-file consistency, but does not by itself rerun model training or demonstrate experimental activity.
 
-## 2. Source files and run order
+## Source scripts and analyses
 
-- [Original PACE scripts](../code/original_PACE/): author-supplied Python code. The 14 original `.py` files have been separately extracted for code review.
-- [Original run order](../code/original_PACE/RUN_ORDER.md): exact script sequence as supplied.
-- [S12](../S12/): code and selected independent verification scripts; `.ipynb` notebooks may run in Google Colab.
-- [S01](../S01/): curation source and measured MIC/HC50 provenance.
+- [PACE Python source scripts](../code/original_PACE/) and [declared run order](../code/original_PACE/RUN_ORDER.md) document the sequence curation, 90-descriptor encoding, AMP classifier, MIC/HC₅₀ regressors, GA search, and candidate selection stages.
+- [S12](../S12/) contains additional computational scripts, numerical checks, and run records.
+- [S01](../S01/) describes the input data and source provenance.
 
-## 3. Numerical audit route
-
-| Task | Evidence |
+| Analysis | Supporting records |
 |---|---|
-| Reproduce AMP classification comparisons | `S02/DATA/` |
-| Inspect six MIC out-of-fold predictions | `S04/DATA/` |
-| Inspect HC50 and uncertainty evaluation | `S05/DATA/` |
-| Inspect ESM-2 and QMAP evaluations | `S06/DATA/` |
-| Compare MTL and species-aware endpoints | `S07/DATA/` |
-| Validate lead sequences and ranking criteria | `S08/DATA/` |
-| Inspect GA ablations and controlled NSGA-II archives | `S09/DATA/`, `S10/DATA/` |
-| Inspect external generative library comparisons | `S11/DATA/` |
+| AMP recognition and external predictor comparison | [S02/DATA](../S02/DATA/) |
+| Measured target-specific activity controls | [S03/DATA](../S03/DATA/) |
+| Six MIC endpoints and predictive performance | [S04/DATA](../S04/DATA/) |
+| Hemolysis prediction and uncertainty | [S05/DATA](../S05/DATA/) |
+| ESM-2, hybrid, composition–length, and QMAP evaluation | [S06/DATA](../S06/DATA/) |
+| Multitask learning, species pooling, and cross-pathogen MIC | [S07/DATA](../S07/DATA/) |
+| PACE leads, diversity, and applicability domain | [S08/DATA](../S08/DATA/) |
+| GA objective ablations | [S09/DATA](../S09/DATA/) |
+| Controlled GA versus NSGA-II comparison | [S10/DATA](../S10/DATA/) |
+| HydrAMP and reconstructed AMPGAN v2 libraries | [S11/DATA](../S11/DATA/) |
+| Executable code and computational records | [S12/DATA](../S12/DATA/) |
 
-## 4. Availability and computational caveats
+## Scope of reproducibility
 
-Original model files and the original GA search trajectory were **not included** with the author's source inputs. Retained analysis outputs include new out-of-fold calculations, reconstructed external-model runs and score-based stress tests, with their provenance identified. These may not reproduce an unavailable historical run bit-for-bit. Consult model-specific notebooks and `DATA/` manifests for software versions before execution.
+The deposited research code and retained output records enable inspection and reuse of the documented workflows. Some comparator models use specified refitted or reconstructed implementations. **Exact replay of the initial GA search may require fitted-model artifacts that are not included.** Complete provenance, model-specific settings, and the data files should be consulted when reproducing results.
 
-## 5. Reusing the data
+The 20 designed peptide scores are model predictions, not experimentally determined MIC or HC₅₀ measurements. Comparing candidate libraries under a shared surrogate does not establish biological hit rates.
 
-- Do not conflate modeled MIC/HC50 with experimentally measured values.
-- Treat sequence grouping, model reconstruction, and dataset overlap checks as mandatory analysis context.
-- Consult [Attribution and licenses](04_ATTRIBUTION_AND_LICENSES.md) before redistribution.
+## Reassembling the large numerical archives
+
+Complete ZIP contents are stored in ordered, byte-preserving parts in `S06/DATA/` and `S10/DATA/`. To reassemble and verify them:
+
+```bash
+python code/reassemble_archives.py
+```
+
+See [provenance](../DATA_SOURCES.md) and [licensing notes](04_ATTRIBUTION_AND_LICENSES.md).
